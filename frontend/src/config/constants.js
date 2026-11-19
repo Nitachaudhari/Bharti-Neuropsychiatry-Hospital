@@ -1,0 +1,23 @@
+export const APP_CONFIG = Object.freeze({
+  HOSPITAL_NAME: import.meta.env.VITE_HOSPITAL_NAME || 'Bharti Neuropsychiatry Hospital',
+  SUB_BRAND: 'The Mind Solutions Center & Hospital',
+  TAGLINE: 'Your Mental Health Matters',
+  DOCTOR_NAME: 'Dr. Parag Keshav Mahajan',
+  DOCTOR_NAME_MARATHI: 'डॉ. पराग केशव महाजन',
+  DOCTOR_ROLE: 'Neuropsychiatrist / मानसोपचार तज्ज्ञ',
+  DOCTOR_QUALIFICATIONS: 'MBBS, DNB, DPM, MA',
+  DOCTOR_REG_NO: 'Reg. No. 2008/10/3670',
+  PORTAL_NAME: import.meta.env.VITE_PORTAL_NAME || 'Online Psychological Assessment Portal',
+  API_BASE_URL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api',
+  PHONE: '9143430505',
+  PHONE_DISPLAY: '+91 91434 30505',
+  EMAIL: 'contact@bhartineuropsychiatry.com',
+  ADDRESS: '327, Near Old LIC Building, Kulkarni Plot, Behind Court, Behind Petrol Pump No. 2, Bhusawal',
+  ADDRESS_MARATHI: '३२७, जुनी LIC बिल्डींगजवळ, कुलकर्णी प्लॉट, कोर्टाच्या मागे, २ नं. पेट्रोल पंपामागे, भुसावळ.',
+  TIMINGS: 'Daily 10:00 AM to 1:00 PM (दररोज सकाळी १० ते १)',
+  CLOSED_DAYS: 'Saturday & Tuesday Closed (शनिवार / मंगळवार बंद)',
+  EVENING_TIMINGS: 'Call 9143430505 for Evening Appointments (संध्याकाळी अपॉइंटमेंट साठी संपर्क करावा)',
+  CITY: 'Bhusawal',
+  DISTRICT: 'Jalgaon',
+  STATE: 'Maharashtra'
+});
